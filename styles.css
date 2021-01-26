@@ -13,10 +13,12 @@ h3{
 
 h4{
     font-family: 'Staatliches', cursive;
+    font-size: 40px;
 }
 
 h5{
     border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+    font-size: 30px;
 }
 
 .navbar{
@@ -105,12 +107,18 @@ h5{
 
     filter: drop-shadow(0px 7px 3px rgba(0, 0, 0, 0.473));
     transition: 0.5s;
+    border-radius: 35px;
 }
 .carta:hover{
 
     filter: drop-shadow(0px 7px 15px rgba(0, 0, 0, 0.514));
 }
 
+.carta p {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.815);
+}
 .carta h5{
 
     font-family: 'Staatliches', cursive;
@@ -147,12 +155,6 @@ h5{
     margin-top: 50px;
 }
 
-.experiencia p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
 .balat h5 {
 
     color: #EE8282;
@@ -184,8 +186,6 @@ h5{
     background-color: #31cf98;
 }
 .carta .borde{
-    
-    border: 1px solid black;
-    border-right: none;
+    border-right: 1px solid black;
 }
 
