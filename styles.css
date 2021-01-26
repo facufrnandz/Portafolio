@@ -11,6 +11,14 @@ h3{
     -webkit-text-stroke: 0.3px black;
 }
 
+h4{
+    font-family: 'Staatliches', cursive;
+}
+
+h5{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+
 .navbar{
     box-shadow: 0px 2px 10px rgb(110, 110, 110);
     padding-right: 10%;
@@ -102,16 +110,13 @@ h3{
 
     filter: drop-shadow(0px 7px 15px rgba(0, 0, 0, 0.514));
 }
+
 .carta h5{
 
     font-family: 'Staatliches', cursive;
     font-size: 27px;
 }
 
-.carta p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-}
 .frontend .card-header{
 
     background-color: #EE8282;
@@ -130,8 +135,57 @@ h3{
 }
 
 .experiencia{
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 50px;
     border-radius: 1000px 1000px 0px 0px /100px 100px;
     box-shadow: 0px -10px 0px rgba(0, 0, 0, 0.322);
     z-index: 1;
 }
+
+.experiencia .info {
+
+    margin-top: 50px;
+}
+
+.experiencia p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.balat h5 {
+
+    color: #EE8282;
+}
+
+.hitel h5 {
+
+    color: #7298D0;
+}
+
+.hitelteamleader h5 {
+
+    color: #31cf98;
+
+}
+
+.experiencia .balat {
+
+    background-color: #EE8282;
+}
+
+.experiencia .hitel {
+
+    background-color: #7298D0;
+}
+
+.experiencia .hitelteamleader {
+
+    background-color: #31cf98;
+}
+.carta .borde{
+    
+    border: 1px solid black;
+    border-right: none;
+}
+
