@@ -48,7 +48,6 @@ h5{
     background-repeat: no-repeat;
     background-position: center 60%;
     background-size: cover;
-    width: 100%;
     text-align: center;
     align-items: center;
 }
@@ -107,7 +106,21 @@ h5{
 
     filter: drop-shadow(0px 7px 3px rgba(0, 0, 0, 0.473));
     transition: 0.5s;
-    border-radius: 35px;
+}
+
+.carta .puesto {
+
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+.carta .descripcion {
+
+    background-color: white;
+    border: 1px solid black;
+
 }
 .carta:hover{
 
@@ -144,7 +157,9 @@ h5{
 
 .experiencia{
     margin-top: 50px;
-    padding: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
     border-radius: 1000px 1000px 0px 0px /100px 100px;
     box-shadow: 0px -10px 0px rgba(0, 0, 0, 0.322);
     z-index: 1;
@@ -171,21 +186,35 @@ h5{
 
 }
 
-.experiencia .balat {
+.experiencia .balat .puesto  {
 
     background-color: #EE8282;
 }
 
-.experiencia .hitel {
+.experiencia .hitel .puesto {
 
     background-color: #7298D0;
 }
 
-.experiencia .hitelteamleader {
+.experiencia .hitelteamleader .puesto {
 
     background-color: #31cf98;
 }
 .carta .borde{
-    border-right: 1px solid black;
+    border: 1px solid black;
 }
 
+.portafolio .card-header{
+
+    background-color: #f9c8ab;
+}
+
+.freelancers .card-header{
+
+    background-color: #682a8b;
+}
+
+.contabilidad .card-header{
+
+    background-color: #c3e270;
+}
